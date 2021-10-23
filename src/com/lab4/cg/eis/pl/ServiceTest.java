@@ -18,7 +18,7 @@ public class ServiceTest {
 			System.out.println("enter insurance scheme");
 			
 			
-			ServiceInterface service=new Service();
+			//ServiceInterface service=new Service();
 			//service.retirement();
 	}
 }

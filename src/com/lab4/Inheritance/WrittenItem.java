@@ -9,13 +9,26 @@ public class WrittenItem extends Item{
 	public void setBookAuthor(String bookAuthor) {
 		this.bookAuthor = bookAuthor;
 	}
-	@Override
-	void library() {
-		
-		int videoYORelease;
-		String cdMusicalGenre;
+	
+	void author() {
+		// TODO Auto-generated method stub
 		
 	}
 	
+	@Override
+	void journalPaper() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	void mediaItem() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	void BookDetails() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
