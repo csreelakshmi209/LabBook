@@ -1,4 +1,4 @@
-package com.lab.cg.eis.exception;
+package com.lab3.cg.eis.exception;
 
 public class EmployeeException extends Exception {
 
