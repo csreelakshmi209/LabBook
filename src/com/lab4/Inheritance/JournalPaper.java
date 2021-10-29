@@ -1,7 +1,8 @@
 package com.lab4.Inheritance;
 
 public class JournalPaper extends WrittenItem {
-	private	String publishedYear;
+	private String publishedYear;
+
 	public String getPublishedYear() {
 		return publishedYear;
 	}
@@ -9,13 +10,13 @@ public class JournalPaper extends WrittenItem {
 	public void setPublishedYear(String publishedYear) {
 		this.publishedYear = publishedYear;
 	}
+
 	@Override
 	void journalPaper() {
 		System.out.println();
 		System.out.println("journal details:");
-		System.out.println("Journal Published year:"+getPublishedYear());
-		
+		System.out.println("Journal Published year:" + getPublishedYear());
+
 	}
 
-	
 }

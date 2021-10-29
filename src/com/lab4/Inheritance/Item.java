@@ -1,46 +1,45 @@
 package com.lab4.Inheritance;
 
 abstract class Item {
-		private int uniqueNum;
-		private String title;
-		private int numOfCopies;
-		
-		abstract void BookDetails();
-		abstract void author();
-		abstract void journalPaper();
-		abstract void mediaItem();
-		
-		public int getUniqueNum() {
-			return uniqueNum;
-		}
+	private int uniqueNum;
+	private String title;
+	private int numOfCopies;
 
-		public void setUniqueNum(int uniqueNum) {
-			this.uniqueNum = uniqueNum;
-		}
+	abstract void BookDetails();
 
-		public String getTitle() {
-			return title;
-		}
+	abstract void author();
 
-		public void setTitle(String title) {
-			this.title = title;
-		}
+	abstract void journalPaper();
 
-		public int getNumOfCopies() {
-			return numOfCopies;
-		}
+	abstract void mediaItem();
 
-		public void setNumOfCopies(int numOfCopies) {
-			this.numOfCopies = numOfCopies;
-		}
-		
-		@Override
-		public String toString() {
-			return "Item [uniqueNum=" + uniqueNum + ", title=" + title + ", numOfCopies=" + numOfCopies + "]";
-		}
+	public int getUniqueNum() {
+		return uniqueNum;
+	}
 
-		
+	public void setUniqueNum(int uniqueNum) {
+		this.uniqueNum = uniqueNum;
+	}
 
-		
-		
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public int getNumOfCopies() {
+		return numOfCopies;
+	}
+
+	public void setNumOfCopies(int numOfCopies) {
+		this.numOfCopies = numOfCopies;
+	}
+
+	@Override
+	public String toString() {
+		return "Item [uniqueNum=" + uniqueNum + ", title=" + title + ", numOfCopies=" + numOfCopies + "]";
+	}
+
 }

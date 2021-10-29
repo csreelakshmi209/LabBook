@@ -1,4 +1,4 @@
-package com.labThree.Exceptions;
+package com.labFive.Exceptions;
 
 public class InvalidName extends RuntimeException {
 
